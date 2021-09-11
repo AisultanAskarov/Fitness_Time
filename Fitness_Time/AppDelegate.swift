@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Fitness_Time
 //
-//  Created by Aisultan Askarov on 4.09.2021.
+//  Created by Gabriel on 4.09.2021.
 //
 
 import UIKit
@@ -12,10 +12,61 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        preloadDataFromStructArray() //Preloading workout data that user will change
+        
+        let attrs = [
+          NSAttributedString.Key.foregroundColor: UIColor.white
+        ]
+
+        UINavigationBar.appearance().largeTitleTextAttributes = attrs
+        UINavigationBar.appearance().titleTextAttributes = attrs
+        UINavigationBar.appearance().prefersLargeTitles = true
+                
         return true
+    }
+    
+    
+    func preloadDataFromStructArray() {
+        
+        let preloadedDataKey = "didPreloadData"
+        let userDefaults = UserDefaults.standard
+        
+        if userDefaults.bool(forKey: preloadedDataKey) == false {
+
+            
+
+            let backgroundContext = CoreDataStack.persistentContainer.newBackgroundContext()
+            CoreDataStack.persistentContainer.viewContext.automaticallyMergesChangesFromParent = true
+            
+            backgroundContext.perform {
+                
+                let firstWeek = [exerciseStructure(name: "Squat", reps: "0", weight: "0", workoutId: 0), exerciseStructure(name: "PullUp", reps: "0", weight: "0", workoutId: 1), exerciseStructure(name: "PushUp", reps: "0", weight: "0", workoutId: 2), exerciseStructure(name: "Burpy", reps: "0", weight: "0", workoutId: 3), exerciseStructure(name: "Jumps", reps: "0", weight: "0", workoutId: 4), exerciseStructure(name: "Extensions", reps: "0", weight: "0", workoutId: 5), exerciseStructure(name: "Box Squat", reps: "0", weight: "0", workoutId: 6), exerciseStructure(name: "Bench Press", reps: "0", weight: "0", workoutId: 7), exerciseStructure(name: "Flyes", reps: "0", weight: "0", workoutId: 8)]
+                    
+                    do{
+                    
+                    for status in firstWeek {
+
+                        let tainingPlanStatus = Exercises(context: backgroundContext)
+                        tainingPlanStatus.exercise_name = status.name
+                        tainingPlanStatus.exercise_weight = status.weight
+                        tainingPlanStatus.exercise_reps = status.reps
+                        tainingPlanStatus.workoutId = status.workoutId
+                        
+                    }
+                    
+                        try backgroundContext.save()
+                        userDefaults.setValue(true, forKey: preloadedDataKey)
+
+                    } catch {
+                        print(error.localizedDescription)
+                    }
+                
+            }
+                        
+        }
+        
     }
 
     // MARK: UISceneSession Lifecycle
@@ -78,4 +129,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-

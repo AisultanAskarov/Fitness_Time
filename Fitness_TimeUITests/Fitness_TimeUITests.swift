@@ -2,7 +2,7 @@
 //  Fitness_TimeUITests.swift
 //  Fitness_TimeUITests
 //
-//  Created by Aisultan Askarov on 4.09.2021.
+//  Created by Gabriel on 4.09.2021.
 //
 
 import XCTest

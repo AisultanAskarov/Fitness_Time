@@ -2,20 +2,41 @@
 //  SceneDelegate.swift
 //  Fitness_Time
 //
-//  Created by Aisultan Askarov on 4.09.2021.
+//  Created by Gabriel on 4.09.2021.
 //
 
 import UIKit
+import CoreData
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
-
+    var login: [Login] = CoreDataStack().loadEmail() //Pulling emails from CoreData
+    
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+                
+        if let windowScene = scene as? UIWindowScene {
+                let window = UIWindow(windowScene: windowScene)
+            var navigationController = UINavigationController()
+                                    
+            //Checking if there are login saved(something like keep me loged in)
+            
+            if login.count == 0 {
+            
+                navigationController = UINavigationController(rootViewController: UserAuthorizationViewController())
+                
+            } else if login.count > 0 {
+                
+                navigationController = UINavigationController(rootViewController: TrainingPlans())
+                
+            }
+            
+            window.rootViewController = navigationController
+
+                self.window = window
+                window.makeKeyAndVisible()
+            }
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 

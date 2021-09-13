@@ -38,7 +38,7 @@ class WorkoutView: UIViewController {
     var tableView: UITableView!
     var viewHeight: CGFloat!
     
-    var exercises: [Exercises] = CoreDataStack().loadExercises()
+    var exercises: [Exercises] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()

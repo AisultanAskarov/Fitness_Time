@@ -136,6 +136,12 @@ class UserAuthorizationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let language = Language(context: CoreDataStack.context)
+        language.currentLanguage = "en"
+        CoreDataStack.saveContext()
+        
+        print(CoreDataStack().loadCurrentLanguage())
+        
         //Setting navBar
         navigationController?.navigationBar.tintColor = UIColor.white
         navigationController?.navigationBar.isHidden = false

@@ -17,7 +17,7 @@ class TrainingProgrammLobby: UIViewController {
     var durationWeeks: String!
     var numberOfWorkouts: String!
     
-    var workouts: [workoutStructure] = []
+    var workouts: [Workout] = []
     
     var daysToAdd: Int!
     
@@ -94,38 +94,16 @@ extension TrainingProgrammLobby: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        
-        return "Day \(workouts[section].workout_id)"
-        
-    }
-    
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 50
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
-        let calendar = Calendar.current
-        let daysRange = calendar.range(of: .day, in: .year, for: Date())
-        let currentDay = calendar.ordinality(of: .day, in: .year, for: Date())! + daysToAdd
-        let days = Array(currentDay ... (daysRange!.upperBound))
-        
-        let formatter = DateFormatter()
-        formatter.dateFormat = "eeee"
-        
-        let calendar1 = Calendar.current
-        let today1 = calendar1.startOfDay(for: Date())
-        let weekdays1 = calendar1.range(of: .weekday, in: .weekOfYear, for: today1)!
-        let days1 = (weekdays1.lowerBound ..< weekdays1.upperBound)
-            .compactMap { calendar1.date(byAdding: .day, value: $0, to: today1) }
-        
-        let strings = days1.map { formatter.string(from: $0) }
-        
         let returnedView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 55))
         returnedView.backgroundColor = .clear
         let label = UILabel(frame: CGRect(x: 20, y: 25, width: view.frame.width, height: 25))
-        label.text = "Day \(days[section]) | \(strings[section])"
+        label.text = workouts[section].workout_date
         label.textColor = UIColor.white
         label.font = UIFont.systemFont(ofSize: 20)
         label.clipsToBounds = false
@@ -144,10 +122,10 @@ extension TrainingProgrammLobby: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! WorkoutsCell
         cell.backgroundColor = UIColor.clear
         cell.selectionStyle = .none
-        cell.workoutLabel.text = "\(workouts[indexPath.section].workout_target_muscles) Workout"
-        cell.targetMuscles.text = "Target Muscles: \(workouts[indexPath.section].workout_target_muscles)"
-        cell.numberOfExercises.text = "Total Exercises: \(workouts[indexPath.section].exercises.count)"
-        cell.workoutImage.image = UIImage(named: workouts[indexPath.section].workout_image)
+        cell.workoutLabel.text = "\(workouts[indexPath.section].workout_target_muscles ?? "") Workout"
+        cell.targetMuscles.text = "Target Muscles: \(workouts[indexPath.section].workout_target_muscles ?? "")"
+        cell.numberOfExercises.text = "Total Exercises: \(workouts[indexPath.section].exercises!.count)"
+        cell.workoutImage.image = UIImage(named: workouts[indexPath.section].workout_image!)
         
         return cell
         
@@ -156,6 +134,7 @@ extension TrainingProgrammLobby: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
      
         let presentVC = WorkoutView()
+        presentVC.exercises = workouts[indexPath.section].exercises?.array as! [Exercises]
         presentVC.modalPresentationStyle = .popover
         presentVC.hidesBottomBarWhenPushed = true
         self.present(presentVC, animated: true, completion: nil)

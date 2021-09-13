@@ -12,42 +12,42 @@
 "workout_id": "1",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Chest",
 "workout_image": "1"
 }, {
 "workout_id": "2",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Legs",
 "workout_image": "5"
 }, {
 "workout_id": "3",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "2"
 }, {
 "workout_id": "4",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "4"
 }, {
 "workout_id": "5",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "3"
 }, {
 "workout_id": "6",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "7"
 }
@@ -61,45 +61,253 @@
 "programm_number_of_workouts": "6",
 "programm_workouts": [
 {
-"workout_id": "1",
+"workout_id": "7",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Chest",
 "workout_image": "1"
 }, {
-"workout_id": "2",
+"workout_id": "8",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Legs",
 "workout_image": "5"
 }, {
-"workout_id": "3",
+"workout_id": "9",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "2"
 }, {
-"workout_id": "4",
+"workout_id": "10",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "4"
 }, {
-"workout_id": "5",
+"workout_id": "11",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "3"
 }, {
-"workout_id": "6",
+"workout_id": "12",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "7"
+}
+]
+    
+}, {
+"programm_name": "Gym Addict",
+"programm_id": "3",
+"programm_image": "4",
+"programm_duration_weeks": "1",
+"programm_number_of_workouts": "6",
+"programm_workouts": [
+{
+"workout_id": "13",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Chest",
+"workout_image": "1"
+}, {
+"workout_id": "14",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Legs",
+"workout_image": "5"
+}, {
+"workout_id": "15",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "2"
+}, {
+"workout_id": "16",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "4"
+}, {
+"workout_id": "17",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "3"
+}, {
+"workout_id": "18",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "7"
+}
+]
+    
+}, {
+"programm_name": "Ab Demolition",
+"programm_id": "4",
+"programm_image": "5",
+"programm_duration_weeks": "1",
+"programm_number_of_workouts": "6",
+"programm_workouts": [
+{
+"workout_id": "19",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Chest",
+"workout_image": "1"
+}, {
+"workout_id": "20",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Legs",
+"workout_image": "5"
+}, {
+"workout_id": "21",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "2"
+}, {
+"workout_id": "22",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "4"
+}, {
+"workout_id": "23",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "3"
+}, {
+"workout_id": "24",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "7"
+}
+]
+    
+}, {
+"programm_name": "Armagedon",
+"programm_id": "5",
+"programm_image": "6",
+"programm_duration_weeks": "1",
+"programm_number_of_workouts": "6",
+"programm_workouts": [
+{
+"workout_id": "25",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Chest",
+"workout_image": "1"
+}, {
+"workout_id": "26",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Legs",
+"workout_image": "5"
+}, {
+"workout_id": "27",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "2"
+}, {
+"workout_id": "28",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "4"
+}, {
+"workout_id": "29",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "3"
+}, {
+"workout_id": "30",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "7"
+}
+]
+    
+}, {
+"programm_name": "Cobra Back",
+"programm_id": "6",
+"programm_image": "3",
+"programm_duration_weeks": "1",
+"programm_number_of_workouts": "6",
+"programm_workouts": [
+{
+"workout_id": "31",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Chest",
+"workout_image": "1"
+}, {
+"workout_id": "32",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Legs",
+"workout_image": "5"
+}, {
+"workout_id": "33",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "2"
+}, {
+"workout_id": "34",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "4"
+}, {
+"workout_id": "35",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
+"workout_target_muscles" : "Back",
+"workout_image": "3"
+}, {
+"workout_id": "36",
+"workout_completed": false,
+"workout_duration": "0",
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "7"
 }
@@ -107,311 +315,103 @@
     
 }, {
 "programm_name": "Home Workouts",
-"programm_id": "3",
+"programm_id": "7",
 "programm_image": "3",
 "programm_duration_weeks": "1",
 "programm_number_of_workouts": "6",
 "programm_workouts": [
 {
-"workout_id": "1",
+"workout_id": "37",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Chest",
 "workout_image": "1"
 }, {
-"workout_id": "2",
+"workout_id": "38",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Legs",
 "workout_image": "5"
 }, {
-"workout_id": "3",
+"workout_id": "39",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "2"
 }, {
-"workout_id": "4",
+"workout_id": "40",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "4"
 }, {
-"workout_id": "5",
+"workout_id": "41",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "3"
 }, {
-"workout_id": "6",
+"workout_id": "42",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "7"
 }
 ]
     
 }, {
-"programm_name": "Home Workouts",
-"programm_id": "3",
-"programm_image": "3",
+"programm_name": "Naked Warrior",
+"programm_id": "8",
+"programm_image": "2",
 "programm_duration_weeks": "1",
 "programm_number_of_workouts": "6",
 "programm_workouts": [
 {
-"workout_id": "1",
+"workout_id": "43",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Chest",
 "workout_image": "1"
 }, {
-"workout_id": "2",
+"workout_id": "44",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Legs",
 "workout_image": "5"
 }, {
-"workout_id": "3",
+"workout_id": "45",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "2"
 }, {
-"workout_id": "4",
+"workout_id": "46",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "4"
 }, {
-"workout_id": "5",
+"workout_id": "47",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "3"
 }, {
-"workout_id": "6",
+"workout_id": "48",
 "workout_completed": false,
 "workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "7"
-}
-]
-    
-}, {
-"programm_name": "Home Workouts",
-"programm_id": "3",
-"programm_image": "3",
-"programm_duration_weeks": "1",
-"programm_number_of_workouts": "6",
-"programm_workouts": [
-{
-"workout_id": "1",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Chest",
-"workout_image": "1"
-}, {
-"workout_id": "2",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Legs",
-"workout_image": "5"
-}, {
-"workout_id": "3",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "2"
-}, {
-"workout_id": "4",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "4"
-}, {
-"workout_id": "5",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "3"
-}, {
-"workout_id": "6",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "7"
-}
-]
-    
-}, {
-"programm_name": "Home Workouts",
-"programm_id": "3",
-"programm_image": "3",
-"programm_duration_weeks": "1",
-"programm_number_of_workouts": "6",
-"programm_workouts": [
-{
-"workout_id": "1",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Chest",
-"workout_image": "1"
-}, {
-"workout_id": "2",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Legs",
-"workout_image": "5"
-}, {
-"workout_id": "3",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "2"
-}, {
-"workout_id": "4",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "4"
-}, {
-"workout_id": "5",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "3"
-}, {
-"workout_id": "6",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "7"
-}
-]
-    
-}, {
-"programm_name": "Home Workouts",
-"programm_id": "3",
-"programm_image": "3",
-"programm_duration_weeks": "1",
-"programm_number_of_workouts": "6",
-"programm_workouts": [
-{
-"workout_id": "1",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Chest",
-"workout_image": "1"
-}, {
-"workout_id": "2",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Legs",
-"workout_image": "5"
-}, {
-"workout_id": "3",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "2"
-}, {
-"workout_id": "4",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "4"
-}, {
-"workout_id": "5",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "3"
-}, {
-"workout_id": "6",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "7"
-}
-]
-    
-}, {
-"programm_name": "Home Workouts",
-"programm_id": "3",
-"programm_image": "3",
-"programm_duration_weeks": "1",
-"programm_number_of_workouts": "6",
-"programm_workouts": [
-{
-"workout_id": "1",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Chest",
-"workout_image": "1"
-}, {
-"workout_id": "2",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Legs",
-"workout_image": "5"
-}, {
-"workout_id": "3",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "2"
-}, {
-"workout_id": "4",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "4"
-}, {
-"workout_id": "5",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
-"workout_target_muscles" : "Back",
-"workout_image": "3"
-}, {
-"workout_id": "6",
-"workout_completed": false,
-"workout_duration": "0",
-"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}],
+"exercises": [{"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Lunges","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Pushup","reps": "0", "weight": "0", "workoutId": 1}, {"name": "PullUps","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Dips","reps": "0", "weight": "0", "workoutId": 1}, {"name": "Squats","reps": "0", "weight": "0", "workoutId": 1}],
 "workout_target_muscles" : "Back",
 "workout_image": "7"
 }

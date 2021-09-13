@@ -35,27 +35,82 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if userDefaults.bool(forKey: preloadedDataKey) == false {
 
-            
-
             let backgroundContext = CoreDataStack.persistentContainer.newBackgroundContext()
             CoreDataStack.persistentContainer.viewContext.automaticallyMergesChangesFromParent = true
             
             backgroundContext.perform {
                 
-                let firstWeek = [exerciseStructure(name: "Squat", reps: "0", weight: "0", workoutId: 0), exerciseStructure(name: "PullUp", reps: "0", weight: "0", workoutId: 1), exerciseStructure(name: "PushUp", reps: "0", weight: "0", workoutId: 2), exerciseStructure(name: "Burpy", reps: "0", weight: "0", workoutId: 3), exerciseStructure(name: "Jumps", reps: "0", weight: "0", workoutId: 4), exerciseStructure(name: "Extensions", reps: "0", weight: "0", workoutId: 5), exerciseStructure(name: "Box Squat", reps: "0", weight: "0", workoutId: 6), exerciseStructure(name: "Bench Press", reps: "0", weight: "0", workoutId: 7), exerciseStructure(name: "Flyes", reps: "0", weight: "0", workoutId: 8)]
-                    
+                let calendar = Calendar.current
+                let weekRange = calendar.range(of: .weekOfYear, in: .year, for: Date())
+                let currentWeek = calendar.component(.weekOfYear, from: Date()) - 2
+                let weeks = Array(currentWeek ... (weekRange!.upperBound) - 2)
+                let currentYear = calendar.component(.year, from: Date())
+                
+                //label.text = "Year \(currentYear) | Week \(weeks[section])"
+                
+                let programms = TrainingProgrammsResponse.programms()
+                
                     do{
-                    
-                    for status in firstWeek {
-
-                        let tainingPlanStatus = Exercises(context: backgroundContext)
-                        tainingPlanStatus.exercise_name = status.name
-                        tainingPlanStatus.exercise_weight = status.weight
-                        tainingPlanStatus.exercise_reps = status.reps
-                        tainingPlanStatus.workoutId = status.workoutId
                         
-                    }
-                    
+                        for i in 0..<(programms.count) {
+                            
+                            let context = CoreDataStack.context
+                            let newProgramm = Programm(context: context)
+                            newProgramm.setValue(programms[i].programm_duration_weeks, forKey: "programm_duration_weeks")
+                            newProgramm.setValue(programms[i].programm_id, forKey: "programm_id")
+                            newProgramm.setValue(programms[i].programm_image, forKey: "programm_image")
+                            newProgramm.setValue(programms[i].programm_name, forKey: "programm_name")
+                            newProgramm.setValue(programms[i].programm_number_of_workouts, forKey: "programm_number_of_workouts")
+                            newProgramm.setValue("Year \(currentYear) | Week \(weeks[i])", forKey: "programm_date")
+                            
+                                                        
+                            for w in 0..<(programms[i].programm_workouts.count) {
+                            
+                                let newWorkout = Workout(context: context)
+
+                                newWorkout.setValue(programms[i].programm_workouts[w].workout_id, forKey: "workout_id")
+                                newWorkout.setValue(programms[i].programm_workouts[w].workout_image, forKey: "workout_image")
+                                newWorkout.setValue(programms[i].programm_workouts[w].workout_duration, forKey: "workout_duration")
+                                newWorkout.setValue(programms[i].programm_workouts[w].workout_completed, forKey: "workout_completed")
+                                newWorkout.setValue(programms[i].programm_workouts[w].workout_target_muscles, forKey: "workout_target_muscles")
+
+                                let daysToAdd = (weeks[i] - currentWeek) * 7
+                                let calendarForDayOfTheWeek = Calendar.current
+                                let daysRange = calendarForDayOfTheWeek.range(of: .day, in: .year, for: Date())
+                                let currentDay = calendarForDayOfTheWeek.ordinality(of: .day, in: .year, for: Date())! + daysToAdd
+                                let days = Array(currentDay ... (daysRange!.upperBound))
+                                
+                                let formatter = DateFormatter()
+                                formatter.dateFormat = "eeee"
+                                
+                                let calendar1 = Calendar.current
+                                let today1 = calendar1.startOfDay(for: Date())
+                                let weekdays1 = calendar1.range(of: .weekday, in: .weekOfYear, for: today1)!
+                                let days1 = (weekdays1.lowerBound ..< weekdays1.upperBound)
+                                    .compactMap { calendar1.date(byAdding: .day, value: $0, to: today1) }
+                                
+                                let strings = days1.map { formatter.string(from: $0) }
+                                
+                                newWorkout.setValue("Day \(days[w]) | \(strings[w])", forKey: "workout_date")
+                                
+                                newProgramm.addToWorkouts(newWorkout)
+
+                                for e in 0..<(programms[i].programm_workouts[w].exercises.count) {
+                                    
+                                    let newExercise = Exercises(context: context)
+                                    newExercise.setValue(programms[i].programm_workouts[w].exercises[e].name, forKey: "exercise_name")
+                                    newExercise.setValue(programms[i].programm_workouts[w].exercises[e].reps, forKey: "exercise_reps")
+                                    newExercise.setValue(programms[i].programm_workouts[w].exercises[e].weight, forKey: "exercise_weight")
+                                    newExercise.setValue(programms[i].programm_workouts[w].exercises[e].workoutId, forKey: "workoutId")
+                                    
+                                    newWorkout.addToExercises(newExercise)
+                                    
+                                }
+                                
+                            }
+                                                                                    
+                        }
+                        
                         try backgroundContext.save()
                         userDefaults.setValue(true, forKey: preloadedDataKey)
 

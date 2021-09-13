@@ -76,6 +76,59 @@ class CoreDataStack {
         return _runs
     }
     
+    func loadProgramms() -> [Programm] {
+        
+        var _runs : [Programm] = []
+        let context = CoreDataStack.persistentContainer.viewContext
+        let fetchRequest: NSFetchRequest<Programm> = Programm.fetchRequest()
+        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "programm_id", ascending: false)]
+
+        do {
+            let sessions = try context.fetch(fetchRequest)
+            if(sessions.count > 0) {
+                _runs = sessions
+            }
+        } catch {
+            print("Something happened while trying to retrieve tasks...")
+        }
+        return _runs
+    }
+    
+    func loadWorkouts() -> [Workout] {
+        
+        var _runs : [Workout] = []
+        let context = CoreDataStack.persistentContainer.viewContext
+        let fetchRequest: NSFetchRequest<Workout> = Workout.fetchRequest()
+        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "workout_date", ascending: false)]
+
+        do {
+            let sessions = try context.fetch(fetchRequest)
+            if(sessions.count > 0) {
+                _runs = sessions
+            }
+        } catch {
+            print("Something happened while trying to retrieve tasks...")
+        }
+        return _runs
+    }
+    
+    func loadCurrentLanguage() -> [Language] {
+        
+        var _runs : [Language] = []
+        let context = CoreDataStack.persistentContainer.viewContext
+        let fetchRequest: NSFetchRequest<Language> = Language.fetchRequest()
+
+        do {
+            let sessions = try context.fetch(fetchRequest)
+            if(sessions.count > 0) {
+                _runs = sessions
+            }
+        } catch {
+            print("Something happened while trying to retrieve tasks...")
+        }
+        return _runs
+    }
+    
     // MARK: - Core Data Saving
 
     class func saveContext () {

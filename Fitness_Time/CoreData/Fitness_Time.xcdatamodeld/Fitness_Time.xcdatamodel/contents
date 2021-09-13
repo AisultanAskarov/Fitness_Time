@@ -5,12 +5,38 @@
         <attribute name="exercise_reps" optional="YES" attributeType="String"/>
         <attribute name="exercise_weight" optional="YES" attributeType="String"/>
         <attribute name="workoutId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="workout" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Workout" inverseName="exercises" inverseEntity="Workout"/>
+    </entity>
+    <entity name="Language" representedClassName="Language" syncable="YES" codeGenerationType="class">
+        <attribute name="currentLanguage" optional="YES" attributeType="String"/>
     </entity>
     <entity name="Login" representedClassName="Login" syncable="YES" codeGenerationType="class">
         <attribute name="email" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="Programm" representedClassName="Programm" syncable="YES" codeGenerationType="class">
+        <attribute name="programm_date" optional="YES" attributeType="String"/>
+        <attribute name="programm_duration_weeks" optional="YES" attributeType="String"/>
+        <attribute name="programm_id" optional="YES" attributeType="String"/>
+        <attribute name="programm_image" optional="YES" attributeType="String"/>
+        <attribute name="programm_name" optional="YES" attributeType="String"/>
+        <attribute name="programm_number_of_workouts" optional="YES" attributeType="String"/>
+        <relationship name="workouts" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Workout" inverseName="programm" inverseEntity="Workout"/>
+    </entity>
+    <entity name="Workout" representedClassName="Workout" syncable="YES" codeGenerationType="class">
+        <attribute name="workout_completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="workout_date" optional="YES" attributeType="String"/>
+        <attribute name="workout_duration" optional="YES" attributeType="String"/>
+        <attribute name="workout_id" optional="YES" attributeType="String"/>
+        <attribute name="workout_image" optional="YES" attributeType="String"/>
+        <attribute name="workout_target_muscles" optional="YES" attributeType="String"/>
+        <relationship name="exercises" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Exercises" inverseName="workout" inverseEntity="Exercises"/>
+        <relationship name="programm" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Programm" inverseName="workouts" inverseEntity="Programm"/>
+    </entity>
     <elements>
-        <element name="Exercises" positionX="-36" positionY="18" width="128" height="89"/>
+        <element name="Exercises" positionX="-36" positionY="18" width="128" height="104"/>
         <element name="Login" positionX="-45" positionY="0" width="128" height="44"/>
+        <element name="Programm" positionX="-36" positionY="45" width="128" height="134"/>
+        <element name="Workout" positionX="-27" positionY="54" width="128" height="149"/>
+        <element name="Language" positionX="-36" positionY="99" width="128" height="44"/>
     </elements>
 </model>

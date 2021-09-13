@@ -7,9 +7,6 @@
         <attribute name="workoutId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <relationship name="workout" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Workout" inverseName="exercises" inverseEntity="Workout"/>
     </entity>
-    <entity name="Language" representedClassName="Language" syncable="YES" codeGenerationType="class">
-        <attribute name="currentLanguage" optional="YES" attributeType="String"/>
-    </entity>
     <entity name="Login" representedClassName="Login" syncable="YES" codeGenerationType="class">
         <attribute name="email" optional="YES" attributeType="String"/>
     </entity>
@@ -37,6 +34,5 @@
         <element name="Login" positionX="-45" positionY="0" width="128" height="44"/>
         <element name="Programm" positionX="-36" positionY="45" width="128" height="134"/>
         <element name="Workout" positionX="-27" positionY="54" width="128" height="149"/>
-        <element name="Language" positionX="-36" positionY="99" width="128" height="44"/>
     </elements>
 </model>

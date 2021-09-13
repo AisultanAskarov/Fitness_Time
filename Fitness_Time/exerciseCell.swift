@@ -42,7 +42,7 @@ class exerciseCell: UITableViewCell, UITextFieldDelegate {
         let label = UILabel()
         label.backgroundColor = UIColor.clear
         label.font = UIFont.systemFont(ofSize: 17.0, weight: .semibold)
-        label.text = "Reps:"
+        label.text = "Reps:".Localized()
         label.textAlignment = .right
         label.textColor = UIColor.white
             
@@ -68,7 +68,7 @@ class exerciseCell: UITableViewCell, UITextFieldDelegate {
         let label = UILabel()
         label.backgroundColor = UIColor.clear
         label.font = UIFont.systemFont(ofSize: 17.0, weight: .semibold)
-        label.text = "Weight:"
+        label.text = "Weight:".Localized()
         label.textAlignment = .right
         label.textColor = UIColor.white
             
@@ -198,36 +198,8 @@ class exerciseCell: UITableViewCell, UITextFieldDelegate {
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         
-        /*let exercise: Exercises!
-        
-        do{
-        
-            let fetchUser: NSFetchRequest<Exercises> = Exercises.fetchRequest()
-            fetchUser.predicate = NSPredicate(format: "workoutId = %@", Int16(textField.tag))
-
-            let results = try? context.fetch(fetchUser)
-
-            if results?.count == 0 {
-               // here you are inserting
-               exercise = Exercises(context: context)
-            } else {
-               // here you are updating
-               exercise = results?.first
-            }
-
-           exercise.exercise_reps = repsTextField.text!
-           exercise.exercise_weight = weightTextField.text!
-        
-            try context.save()
-
-        } catch {
-            print(error.localizedDescription)
-        }*/
-        
         textField.text = "" //Removing 0 when user starts typing.
         
-        //repsTextField.addTarget(self, action: #selector(valueChanged), for: .)
-        //weightTextField.addTarget(self, action: #selector(valueChanged), for: .editingChanged)
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {

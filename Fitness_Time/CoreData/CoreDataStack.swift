@@ -99,24 +99,7 @@ class CoreDataStack {
         var _runs : [Workout] = []
         let context = CoreDataStack.persistentContainer.viewContext
         let fetchRequest: NSFetchRequest<Workout> = Workout.fetchRequest()
-        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "workout_date", ascending: false)]
-
-        do {
-            let sessions = try context.fetch(fetchRequest)
-            if(sessions.count > 0) {
-                _runs = sessions
-            }
-        } catch {
-            print("Something happened while trying to retrieve tasks...")
-        }
-        return _runs
-    }
-    
-    func loadCurrentLanguage() -> [Language] {
-        
-        var _runs : [Language] = []
-        let context = CoreDataStack.persistentContainer.viewContext
-        let fetchRequest: NSFetchRequest<Language> = Language.fetchRequest()
+        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "workout_date", ascending: true)]
 
         do {
             let sessions = try context.fetch(fetchRequest)

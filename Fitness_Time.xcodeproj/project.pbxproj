@@ -14,6 +14,10 @@
 		2253559326E7F85100578392 /* WorkoutsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253559226E7F85100578392 /* WorkoutsCell.swift */; };
 		2253559526E8E82300578392 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253559426E8E82300578392 /* WorkoutView.swift */; };
 		2253559726E907C000578392 /* exerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253559626E907C000578392 /* exerciseCell.swift */; };
+		22611F3B26F011B80086AE65 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22611F3D26F011B80086AE65 /* Localizable.strings */; };
+		22DCA15826EF75A60018AD29 /* removeAllConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCA15726EF75A60018AD29 /* removeAllConstraints.swift */; };
+		22DCA15A26EFCD850018AD29 /* DataManagerBetweenProgrammMenuAndProgrammLobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCA15926EFCD850018AD29 /* DataManagerBetweenProgrammMenuAndProgrammLobby.swift */; };
+		22DCA15C26EFF8C50018AD29 /* DataManagerBetweenWorkoutAndExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCA15B26EFF8C50018AD29 /* DataManagerBetweenWorkoutAndExercises.swift */; };
 		22DDB53026E39A93005292E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DDB52F26E39A93005292E5 /* AppDelegate.swift */; };
 		22DDB53226E39A93005292E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DDB53126E39A93005292E5 /* SceneDelegate.swift */; };
 		22DDB53426E39A93005292E5 /* UserAuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DDB53326E39A93005292E5 /* UserAuthorizationViewController.swift */; };
@@ -52,6 +56,12 @@
 		2253559226E7F85100578392 /* WorkoutsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsCell.swift; sourceTree = "<group>"; };
 		2253559426E8E82300578392 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 		2253559626E907C000578392 /* exerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseCell.swift; sourceTree = "<group>"; };
+		22611F3826F0118E0086AE65 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		22611F3C26F011B80086AE65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		22611F3E26F011BC0086AE65 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		22DCA15726EF75A60018AD29 /* removeAllConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeAllConstraints.swift; sourceTree = "<group>"; };
+		22DCA15926EFCD850018AD29 /* DataManagerBetweenProgrammMenuAndProgrammLobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerBetweenProgrammMenuAndProgrammLobby.swift; sourceTree = "<group>"; };
+		22DCA15B26EFF8C50018AD29 /* DataManagerBetweenWorkoutAndExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerBetweenWorkoutAndExercises.swift; sourceTree = "<group>"; };
 		22DDB52C26E39A93005292E5 /* Fitness_Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness_Time.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DDB52F26E39A93005292E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22DDB53126E39A93005292E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				22DDB52F26E39A93005292E5 /* AppDelegate.swift */,
+				22611F3D26F011B80086AE65 /* Localizable.strings */,
+				22DCA15926EFCD850018AD29 /* DataManagerBetweenProgrammMenuAndProgrammLobby.swift */,
+				22DCA15B26EFF8C50018AD29 /* DataManagerBetweenWorkoutAndExercises.swift */,
 				22DDB53126E39A93005292E5 /* SceneDelegate.swift */,
 				22DDB53326E39A93005292E5 /* UserAuthorizationViewController.swift */,
 				22DDB56726E39B3C005292E5 /* TrainingPlans.swift */,
@@ -130,6 +143,7 @@
 				2253559626E907C000578392 /* exerciseCell.swift */,
 				2253558E26E7E7D200578392 /* ParsingProgramms.swift */,
 				2253558C26E7C69400578392 /* TrainingProgramms.txt */,
+				22DCA15726EF75A60018AD29 /* removeAllConstraints.swift */,
 				22DDB56B26E39D11005292E5 /* Main.storyboard */,
 				22DDB53B26E39A94005292E5 /* Assets.xcassets */,
 				22DDB53D26E39A94005292E5 /* LaunchScreen.storyboard */,
@@ -251,6 +265,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 22DDB52326E39A93005292E5;
 			productRefGroup = 22DDB52D26E39A93005292E5 /* Products */;
@@ -269,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22611F3B26F011B80086AE65 /* Localizable.strings in Resources */,
 				22DDB56C26E39D11005292E5 /* Main.storyboard in Resources */,
 				22DDB53F26E39A94005292E5 /* LaunchScreen.storyboard in Resources */,
 				22DDB53C26E39A94005292E5 /* Assets.xcassets in Resources */,
@@ -308,7 +324,10 @@
 				2253558B26E7B99100578392 /* TrainingPlansCell.swift in Sources */,
 				2253558F26E7E7D200578392 /* ParsingProgramms.swift in Sources */,
 				22DDB53226E39A93005292E5 /* SceneDelegate.swift in Sources */,
+				22DCA15826EF75A60018AD29 /* removeAllConstraints.swift in Sources */,
+				22DCA15A26EFCD850018AD29 /* DataManagerBetweenProgrammMenuAndProgrammLobby.swift in Sources */,
 				22DDB53A26E39A93005292E5 /* Fitness_Time.xcdatamodeld in Sources */,
+				22DCA15C26EFF8C50018AD29 /* DataManagerBetweenWorkoutAndExercises.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,10 +363,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		22611F3D26F011B80086AE65 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22611F3C26F011B80086AE65 /* en */,
+				22611F3E26F011BC0086AE65 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		22DDB53D26E39A94005292E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				22DDB53E26E39A94005292E5 /* Base */,
+				22611F3826F0118E0086AE65 /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -359,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -420,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

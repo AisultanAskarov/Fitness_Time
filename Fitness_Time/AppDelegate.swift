@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        
         preloadDataFromStructArray() //Preloading workout data that user will change
         
         let attrs = [
@@ -49,7 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 //label.text = "Year \(currentYear) | Week \(weeks[section])"
                 
                 let programms = TrainingProgrammsResponse.programms()
-                
+            
                     do{
                         
                         for i in 0..<(programms.count) {
@@ -113,7 +114,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         
                         try backgroundContext.save()
                         userDefaults.setValue(true, forKey: preloadedDataKey)
-
+                    
                     } catch {
                         print(error.localizedDescription)
                     }

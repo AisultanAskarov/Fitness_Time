@@ -238,7 +238,7 @@ class TrainingProgrammLobby: UIViewController {
         
         let strings = days1.map { formatter.string(from: $0) }
         
-        let lastID = Int((workouts.first?.workout_id ?? "0"))! + 1
+        let lastID = Int((workouts.last?.workout_id ?? "0"))! + 1
         
         do {
         
@@ -283,6 +283,8 @@ class TrainingProgrammLobby: UIViewController {
         tableView.reloadData()
         
         animatePopOut()
+        
+        self.dismiss(animated: true, completion: nil)
         
     }
     
@@ -456,6 +458,7 @@ extension TrainingProgrammLobby: UITableViewDelegate, UITableViewDataSource {
         presentVC.exercises = workouts[indexPath.section].exercises?.array as! [Exercises]
         presentVC.workoutId = Int(workouts[indexPath.section].workout_id!)
         presentVC.workout = workouts[indexPath.section]
+        presentVC.workoutName.text = "\(workouts[indexPath.section].workout_target_muscles ?? "") Workout"
         presentVC.modalPresentationStyle = .popover
         presentVC.hidesBottomBarWhenPushed = true
         self.present(presentVC, animated: true, completion: nil)

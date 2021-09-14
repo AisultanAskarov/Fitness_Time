@@ -104,7 +104,7 @@ class TrainingProgrammLobby: UIViewController {
         textView.font = UIFont.systemFont(ofSize: 17.5, weight: .semibold)
         textView.textAlignment = .right
         textView.textColor = UIColor.white
-        textView.keyboardType = .numberPad
+        textView.keyboardType = .default
         textView.text = ""
         textView.isUserInteractionEnabled = true
         textView.attributedPlaceholder = NSAttributedString(string: "Enter target muscle".Localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray.withAlphaComponent(1.0)])
@@ -348,6 +348,15 @@ class TrainingProgrammLobby: UIViewController {
         workoutNameStaticLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
         workoutNameStaticLabel.widthAnchor.constraint(equalToConstant: self.view.frame.width * 0.315).isActive = true
         
+        let toolBar =  UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35))
+        toolBar.barStyle = .default
+        toolBar.sizeToFit()
+
+        // Adding Button ToolBar
+        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneButtonAction))
+        toolBar.items = [doneButton]
+        toolBar.isUserInteractionEnabled = true
+        workoutNameTextField.inputAccessoryView = toolBar
         
         UIView.animate(withDuration: 0.3) {
             
@@ -361,6 +370,10 @@ class TrainingProgrammLobby: UIViewController {
             
         }
         
+    }
+    
+    @objc func doneButtonAction() {
+        workoutNameTextField.endEditing(true)
     }
     
     @objc func animatePopOut() {

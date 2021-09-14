@@ -87,7 +87,7 @@ class exerciseCell: UITableViewCell, UITextFieldDelegate {
         return label
     }()
     
-    var exercises: [Exercises] = []
+    var exercise: Exercises!
     var change = [NSManagedObject]()
     var id: Int16!
 
@@ -164,35 +164,20 @@ class exerciseCell: UITableViewCell, UITextFieldDelegate {
     
     @objc func saveChanges() {
         
-        repsTextField.endEditing(true)
-        weightTextField.endEditing(true)
-        
-        
-        let exercise: Exercises!
-        
+                
         do{
-        
-            let fetchUser: NSFetchRequest<Exercises> = Exercises.fetchRequest()
-            fetchUser.predicate = NSPredicate(format: "workoutId = %@", argumentArray: [id ?? 1])
 
-            let results = try? CoreDataStack.context.fetch(fetchUser)
-
-            if results?.count == 0 {
-               // here you are inserting
-               exercise = Exercises(context: CoreDataStack.context)
-            } else {
-               // here you are updating
-               exercise = results?.first
-            }
-
-           exercise.exercise_reps = repsTextField.text!
-           exercise.exercise_weight = weightTextField.text!
+            exercise.exercise_reps = repsTextField.text!
+            exercise.exercise_weight = weightTextField.text!
         
             try CoreDataStack.context.save()
 
         } catch {
             print(error.localizedDescription)
         }
+        
+        repsTextField.endEditing(true)
+        weightTextField.endEditing(true)
         
     }
     

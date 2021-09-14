@@ -103,6 +103,7 @@ class UserAuthorizationViewController: UIViewController {
         textField.leftViewMode = .always
         textField.autocapitalizationType = .none
         textField.autocorrectionType = .no
+        textField.keyboardType = .default
         textField.addTarget(self, action: #selector(UserStartedTypingEmail), for: .editingDidBegin)
         
         return textField
@@ -209,6 +210,15 @@ class UserAuthorizationViewController: UIViewController {
         emailTextField.heightAnchor.constraint(equalToConstant: 50).isActive = true
         emailTextField.bottomAnchor.constraint(equalTo: logInButton.topAnchor, constant: -50).isActive = true
         
+        let toolBar =  UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35))
+        toolBar.barStyle = .default
+        toolBar.sizeToFit()
+
+        // Adding Button ToolBar
+        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneButtonAction))
+        toolBar.items = [doneButton]
+        toolBar.isUserInteractionEnabled = true
+        emailTextField.inputAccessoryView = toolBar
         
         loginMailConstLabel.translatesAutoresizingMaskIntoConstraints = false
         
@@ -226,6 +236,10 @@ class UserAuthorizationViewController: UIViewController {
     
     override var preferredStatusBarStyle : UIStatusBarStyle {
         return .darkContent
+    }
+    
+    @objc func doneButtonAction() {
+        emailTextField.endEditing(true)
     }
     
     @objc func UserStartedTypingEmail() {

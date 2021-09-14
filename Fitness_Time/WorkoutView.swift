@@ -139,7 +139,7 @@ class WorkoutView: UIViewController {
         textView.font = UIFont.systemFont(ofSize: 17.5, weight: .semibold)
         textView.textAlignment = .right
         textView.textColor = UIColor.white
-        textView.keyboardType = .numberPad
+        textView.keyboardType = .default
         textView.text = ""
         textView.isUserInteractionEnabled = true
         textView.attributedPlaceholder = NSAttributedString(string: "Enter exercise".Localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray.withAlphaComponent(1.0)])
@@ -329,6 +329,15 @@ class WorkoutView: UIViewController {
         exerciseNameStaticLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
         exerciseNameStaticLabel.widthAnchor.constraint(equalToConstant: self.view.frame.width * 0.315).isActive = true
         
+        let toolBar =  UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35))
+        toolBar.barStyle = .default
+        toolBar.sizeToFit()
+
+        // Adding Button ToolBar
+        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneButtonAction))
+        toolBar.items = [doneButton]
+        toolBar.isUserInteractionEnabled = true
+        exerciseNameTextField.inputAccessoryView = toolBar
         
         UIView.animate(withDuration: 0.3) {
             
@@ -342,6 +351,10 @@ class WorkoutView: UIViewController {
             
         }
         
+    }
+    
+    @objc func doneButtonAction() {
+        exerciseNameTextField.endEditing(true)
     }
     
     @objc func animatePopOut() {
@@ -412,7 +425,7 @@ extension WorkoutView: UITableViewDelegate, UITableViewDataSource {
         cell.weightTextField.tag = indexPath.row
         cell.weightTextField.delegate = cell.self
         cell.id = exercises[indexPath.row].workoutId
-        cell.exercises = exercises
+        cell.exercise = exercises[indexPath.row]
 
         return cell
         

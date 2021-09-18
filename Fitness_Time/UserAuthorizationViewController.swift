@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Fitness_Time
 //
-//  Created by Gabriel on 4.09.2021.
+//  Created by Aisultan Askarov on 4.09.2021.
 //
 
 import UIKit

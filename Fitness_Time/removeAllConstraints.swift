@@ -7,6 +7,8 @@
 
 import UIKit
 
+//Removes All The Constraints from view and its subviews
+
 extension UIView {
     
     public func removeAllConstraints() {

@@ -334,7 +334,7 @@ class WorkoutView: UIViewController {
         toolBar.sizeToFit()
 
         // Adding Button ToolBar
-        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneButtonAction))
+        let doneButton = UIBarButtonItem(title: "Save", style: .plain, target: self, action: #selector(doneButtonAction))
         toolBar.items = [doneButton]
         toolBar.isUserInteractionEnabled = true
         exerciseNameTextField.inputAccessoryView = toolBar
@@ -384,18 +384,6 @@ class WorkoutView: UIViewController {
             self.exerciseNameTextField.removeAllConstraints()
             
         }
-        
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
-        
-        
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(true)
-        
         
     }
     

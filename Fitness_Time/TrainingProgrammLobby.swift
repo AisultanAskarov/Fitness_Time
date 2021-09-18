@@ -19,7 +19,7 @@ class TrainingProgrammLobby: UIViewController {
     var numberOfWorkouts: String!
     
     var programm: Programm!
-    var trainingProgrammsUnchanged = CoreDataStack().loadProgramms()
+    var trainingProgrammsUnchanged = CoreDataStack().loadProgramms() //Training Programms Array used when searchBar is nor active
     var workouts: [Workout] = []
     
     var daysToAdd: Int!

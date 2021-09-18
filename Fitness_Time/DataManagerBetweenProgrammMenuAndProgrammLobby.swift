@@ -2,7 +2,7 @@
 //  DataManagerBetweenProgrammMenuAndProgrammLobby.swift
 //  Fitness_Time
 //
-//  Created by Gabriel on 13.09.2021.
+//  Created by Aisultan Askarov on 13.09.2021.
 //
 
 import Foundation

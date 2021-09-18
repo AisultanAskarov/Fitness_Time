@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Fitness_Time
 //
-//  Created by Gabriel on 4.09.2021.
+//  Created by Aisultan Askarov on 4.09.2021.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         
-        preloadDataFromStructArray() //Preloading workout data that user will change
+        preloadDataFromStructArray() //Preloading workout data of ready to use workout plans
         
         let attrs = [
           NSAttributedString.Key.foregroundColor: UIColor.white
@@ -46,9 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 let currentWeek = calendar.component(.weekOfYear, from: Date()) - 2
                 let weeks = Array(currentWeek ... (weekRange!.upperBound) - 2)
                 let currentYear = calendar.component(.year, from: Date())
-                
-                //label.text = "Year \(currentYear) | Week \(weeks[section])"
-                
+                                
                 let programms = TrainingProgrammsResponse.programms()
             
                     do{

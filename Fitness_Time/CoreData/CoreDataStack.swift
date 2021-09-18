@@ -2,7 +2,7 @@
 //  CoreDataStack.swift
 //  Fitness Time
 //
-//  Created by Gabriel on 4.09.2021.
+//  Created by Aisultan Askarov on 4.09.2021.
 //
 
 import Foundation
@@ -58,6 +58,8 @@ class CoreDataStack {
         return login
     }
     
+    // MARK: - Pulling Exercises From Core Data
+    
     func loadExercises() -> [Exercises] {
         
         var _runs : [Exercises] = []
@@ -76,6 +78,8 @@ class CoreDataStack {
         return _runs
     }
     
+    // MARK: - Pulling Programms From Core Data
+    
     func loadProgramms() -> [Programm] {
         
         var _runs : [Programm] = []
@@ -93,6 +97,8 @@ class CoreDataStack {
         }
         return _runs
     }
+    
+    // MARK: - Pulling Workouts From Core Data
     
     func loadWorkouts() -> [Workout] {
         

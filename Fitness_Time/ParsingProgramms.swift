@@ -2,7 +2,7 @@
 //  ParsingProgramms.swift
 //  Fitness_Time
 //
-//  Created by Gabriel on 7.09.2021.
+//  Created by Aisultan Askarov on 7.09.2021.
 //
 
 import Foundation
